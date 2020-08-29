@@ -1,0 +1,40 @@
+.widgets {
+    width: 350px;
+
+    &__input {
+        display: flex;
+        align-items: center;
+        background-color: var(--twitter-background);
+        padding: .625rem;
+        border-radius: 1.25rem;
+        margin-top: .625rem;
+        margin-left: 1.25rem;
+
+        & > input {
+            border: none;
+            background-color: var(--twitter-background);
+            width: 100%;
+        }
+
+        & > input:focus {
+            outline: none;
+        }
+    }
+
+    &__searchIcon {
+        color: gray;
+    }
+
+    &__widgetContainer {
+        margin-top: 1rem;
+        margin-left: 1.25rem;
+        padding: 1rem;
+        background-color: #f5f8fa;
+        border-radius: 1.25rem;
+
+        & > h2 {
+            font-size: 1.125rem;
+            font-weight: 800;
+        }
+    }
+}
